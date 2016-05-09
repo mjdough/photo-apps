@@ -13,7 +13,7 @@ $(document).ready(function() {
     }
     return false;
   };
-  $(".cc_form").on('submit', submitHandler;
+  $(".cc_form").on('submit', submitHandler);
 
    stripeResponseHandler = function (status, response) {
     var token, $form;
